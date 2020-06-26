@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample_TestSuite,Chrome 83.0.4103.61,,,2020-06-06 14:46:47,2020-06-06 14:49:14,2m - 26.938s,FAILED
+,,,,,,,
+Test Cases/OpenYouTube(Chrome),Chrome 83.0.4103.61,,,2020-06-06 14:46:47,2020-06-06 14:47:49,1m - 1.264s,PASSED
+"openBrowser(""https://www.youtube.com/"")",Chrome 83.0.4103.61,,,2020-06-06 14:46:48,2020-06-06 14:47:15,27.001s,PASSED
+"click(findTestObject(""Page_YouTube(Chrome)/Yt-Trending""))",Chrome 83.0.4103.61,,,2020-06-06 14:47:15,2020-06-06 14:47:24,9.329s,PASSED
+delay(10),Chrome 83.0.4103.61,,,2020-06-06 14:47:24,2020-06-06 14:47:34,10.059s,PASSED
+"click(findTestObject(""Page_YouTube(Chrome)/Yt-Home""))",Chrome 83.0.4103.61,,,2020-06-06 14:47:34,2020-06-06 14:47:35,0.534s,PASSED
+delay(10),Chrome 83.0.4103.61,,,2020-06-06 14:47:35,2020-06-06 14:47:45,10.006s,PASSED
+closeBrowser(),Chrome 83.0.4103.61,,,2020-06-06 14:47:45,2020-06-06 14:47:49,3.749s,PASSED
+,,,,,,,
+Test Cases/UI_Components/Drag_Drop,Chrome 83.0.4103.61,,,2020-06-06 14:47:49,2020-06-06 14:48:12,22.631s,PASSED
+"openBrowser(""https://jqueryui.com/droppable/"")",Chrome 83.0.4103.61,,,2020-06-06 14:47:49,2020-06-06 14:48:05,15.909s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Page_DragDrop jQuery UI/source""), findTestObject(""Object Repository/Page_DragDrop jQuery UI/destination""))",Chrome 83.0.4103.61,,,2020-06-06 14:48:05,2020-06-06 14:48:08,2.778s,PASSED
+"Text = getText(findTestObject(""Object Repository/Page_DragDrop jQuery UI/destination""))",Chrome 83.0.4103.61,,,2020-06-06 14:48:08,2020-06-06 14:48:09,0.946s,PASSED
+"verifyEqual(Text, ""Dropped!"")",Chrome 83.0.4103.61,,,2020-06-06 14:48:09,2020-06-06 14:48:09,0.057s,PASSED
+"takeScreenshot(""I:/Software/kalatan/Screenshot.png"")",Chrome 83.0.4103.61,,,2020-06-06 14:48:09,2020-06-06 14:48:10,1.040s,PASSED
+closeBrowser(),Chrome 83.0.4103.61,,,2020-06-06 14:48:10,2020-06-06 14:48:12,1.375s,PASSED
+,,,,,,,
+Test Cases/UI_Components/Drop_Down,Chrome 83.0.4103.61,,,2020-06-06 14:48:12,2020-06-06 14:49:14,1m - 2.175s,FAILED
+"openBrowser(""https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html"")",Chrome 83.0.4103.61,,,2020-06-06 14:48:12,2020-06-06 14:48:22,9.537s,PASSED
+"selectOptionByIndex(findTestObject(""Page_DropDown jQuery UI/Drop_Down select""), 1)",Chrome 83.0.4103.61,,,2020-06-06 14:48:22,2020-06-06 14:48:23,1.128s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:48:23,2020-06-06 14:48:28,5.012s,PASSED
+"selectOptionByLabel(findTestObject(""Page_DropDown jQuery UI/Drop_Down select""), ""Monday"", false)",Chrome 83.0.4103.61,,,2020-06-06 14:48:28,2020-06-06 14:48:28,0.731s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:48:28,2020-06-06 14:48:33,5.004s,PASSED
+"selectOptionByValue(findTestObject(""Page_DropDown jQuery UI/Drop_Down select""), ""Friday"", false)",Chrome 83.0.4103.61,,,2020-06-06 14:48:33,2020-06-06 14:48:34,0.739s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:48:34,2020-06-06 14:48:39,5.005s,PASSED
+"selectAllOption(findTestObject(""Page_DropDown jQuery UI/Multi_Select""))",Chrome 83.0.4103.61,,,2020-06-06 14:48:39,2020-06-06 14:48:45,5.494s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:48:45,2020-06-06 14:48:50,5.006s,PASSED
+"deselectAllOption(findTestObject(""Page_DropDown jQuery UI/Multi_Select""))",Chrome 83.0.4103.61,,,2020-06-06 14:48:50,2020-06-06 14:48:55,5.437s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:48:55,2020-06-06 14:49:00,5.005s,PASSED
+"selectOptionByIndex(findTestObject(""Page_DropDown jQuery UI/Multi_Select""), ""1-2"")",Chrome 83.0.4103.61,,,2020-06-06 14:49:00,2020-06-06 14:49:02,1.517s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:49:02,2020-06-06 14:49:07,5.006s,PASSED
+"selectOptionByLabel(findTestObject(""Page_DropDown jQuery UI/Multi_Select""), ""Texas"", false)",Chrome 83.0.4103.61,,,2020-06-06 14:49:07,2020-06-06 14:49:07,0.709s,PASSED
+delay(5),Chrome 83.0.4103.61,,,2020-06-06 14:49:07,2020-06-06 14:49:12,5.004s,PASSED
+"selectOptionByValue(findTestObject(""Page_DropDown jQuery UI/Multi_Select""), ""New Yok"", false)",Chrome 83.0.4103.61,,,2020-06-06 14:49:12,2020-06-06 14:49:14,1.399s,FAILED

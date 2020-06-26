@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample_TestSuite" time="142.418" tests="3" failures="1" errors="0">
+   <testsuite name="Sample_TestSuite" tests="3" failures="1" errors="0" time="142.418" timestamp="2020-06-06 12:11:35" hostname="Ranjith - Jesus-PC" id="Test Suites/Sample_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126"/>
+         <property name="logFiles" value="C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126\\I:/Software/kalatan/Screenshot.png, C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126\\1591425834490.png"/>
+         <property name="hostName" value="Ranjith - Jesus-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.42.51"/>
+         <property name="sessionId" value="5cae7dd86a9c9080d02b37a0b1770801"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/OpenYouTube(Chrome)" time="63.423" classname="Test Cases/OpenYouTube(Chrome)" status="PASSED">
+         <system-out><![CDATA[2020-06-06 12:11:36 - [TEST_CASE][PASSED] - Test Cases/OpenYouTube(Chrome): Test Cases/OpenYouTube(Chrome)
+
+2020-06-06 12:11:37 - [TEST_STEP][PASSED] - openBrowser("https://www.youtube.com/"): Browser is opened with url: 'https://www.youtube.com/'
+
+2020-06-06 12:11:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-06 12:11:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-06 12:12:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.youtube.com/'
+
+2020-06-06 12:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_YouTube(Chrome)/Yt-Trending")): Object: 'Object Repository/Page_YouTube(Chrome)/Yt-Trending' is clicked on
+
+2020-06-06 12:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YouTube(Chrome)/Yt-Trending' is clicked on
+
+2020-06-06 12:12:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-06-06 12:12:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-06-06 12:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_YouTube(Chrome)/Yt-Home")): Object: 'Object Repository/Page_YouTube(Chrome)/Yt-Home' is clicked on
+
+2020-06-06 12:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_YouTube(Chrome)/Yt-Home' is clicked on
+
+2020-06-06 12:12:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-06-06 12:12:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-06-06 12:12:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-06 12:12:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI_Components/Drag_Drop" time="14.94" classname="Test Cases/UI_Components/Drag_Drop" status="PASSED">
+         <system-out><![CDATA[2020-06-06 12:12:39 - [TEST_CASE][PASSED] - Test Cases/UI_Components/Drag_Drop: Test Cases/UI_Components/Drag_Drop
+
+2020-06-06 12:12:40 - [TEST_STEP][PASSED] - openBrowser("https://jqueryui.com/droppable/"): Browser is opened with url: 'https://jqueryui.com/droppable/'
+
+2020-06-06 12:12:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-06 12:12:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-06 12:12:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://jqueryui.com/droppable/'
+
+2020-06-06 12:12:50 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/Page_DragDrop jQuery UI/source"), findTestObject("Object Repository/Page_DragDrop jQuery UI/destination")): Dragged object with id 'Object Repository/Page_DragDrop jQuery UI/source' to object with id 'TestObject - 'Object Repository/Page_DragDrop jQuery UI/destination'' successfully
+
+2020-06-06 12:12:52 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_DragDrop jQuery UI/source' to object with id 'TestObject - 'Object Repository/Page_DragDrop jQuery UI/destination'' successfully
+
+2020-06-06 12:12:52 - [TEST_STEP][PASSED] - Text = getText(findTestObject("Object Repository/Page_DragDrop jQuery UI/destination")): Text of object 'Object Repository/Page_DragDrop jQuery UI/destination' is: 'Dropped!'
+
+2020-06-06 12:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DragDrop jQuery UI/destination' is: 'Dropped!'
+
+2020-06-06 12:12:52 - [TEST_STEP][PASSED] - verifyEqual(Text, "Dropped!"): Actual object 'Dropped!' and expected object 'Dropped!' are equal
+
+2020-06-06 12:12:52 - [MESSAGE][PASSED] - Actual object 'Dropped!' and expected object 'Dropped!' are equal
+
+2020-06-06 12:12:52 - [TEST_STEP][PASSED] - takeScreenshot("I:/Software/kalatan/Screenshot.png"): Taking screenshot successfully
+
+2020-06-06 12:12:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126\\I:/Software/kalatan/Screenshot.png]]
+
+2020-06-06 12:12:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-06 12:12:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI_Components/Drop_Down" time="60.444" classname="Test Cases/UI_Components/Drop_Down" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI_Components/Drop_Down FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-06 12:12:54 - [TEST_CASE][FAILED] - Test Cases/UI_Components/Drop_Down: Test Cases/UI_Components/Drop_Down FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-06 12:12:55 - [TEST_STEP][PASSED] - openBrowser("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html"): Browser is opened with url: 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+
+2020-06-06 12:12:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-06 12:12:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-06 12:13:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+
+2020-06-06 12:13:02 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_DropDown jQuery UI/Drop_Down select"), 1): All options with index in [1] are selected on object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select'
+
+2020-06-06 12:13:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select'
+
+2020-06-06 12:13:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_DropDown jQuery UI/Drop_Down select"), "Monday", false): All options with label 'Monday' are selected in object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select' 
+
+2020-06-06 12:13:09 - [MESSAGE][PASSED] - All options with label 'Monday' are selected in object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select' 
+
+2020-06-06 12:13:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DropDown jQuery UI/Drop_Down select"), "Friday", false): All options with value 'Friday' are selected in object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select' 
+
+2020-06-06 12:13:15 - [MESSAGE][PASSED] - All options with value 'Friday' are selected in object 'Object Repository/Page_DropDown jQuery UI/Drop_Down select' 
+
+2020-06-06 12:13:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:20 - [TEST_STEP][PASSED] - selectAllOption(findTestObject("Page_DropDown jQuery UI/Multi_Select")): All options are selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:25 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:30 - [TEST_STEP][PASSED] - deselectAllOption(findTestObject("Page_DropDown jQuery UI/Multi_Select")): All options are de-selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:36 - [MESSAGE][PASSED] - All options are de-selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:41 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_DropDown jQuery UI/Multi_Select"), "1-2"): All options with index in [1,2] are selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:43 - [MESSAGE][PASSED] - All options with index in [1,2] are selected on object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'
+
+2020-06-06 12:13:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_DropDown jQuery UI/Multi_Select"), "Texas", false): All options with label 'Texas' are selected in object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+
+2020-06-06 12:13:48 - [MESSAGE][PASSED] - All options with label 'Texas' are selected in object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+
+2020-06-06 12:13:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-06 12:13:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-06 12:13:53 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Page_DropDown jQuery UI/Multi_Select"), "New Yok", false): Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Script1591361243375.run(Script1591361243375.groovy:48)
+	... 13 more
+)
+
+2020-06-06 12:13:54 - [MESSAGE][FAILED] - Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Script1591361243375.run(Script1591361243375.groovy:48)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Ranjith\\Katalon Studio\\demo\\Reports\\20200606_121126\\Sample_TestSuite\\20200606_121126\\1591425834490.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-06 12:12:54 - [TEST_CASE][FAILED] - Test Cases/UI_Components/Drop_Down: Test Cases/UI_Components/Drop_Down FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-06 12:11:35 - [TEST_SUITE][FAILED] - Sample_TestSuite: Test Cases/UI_Components/Drop_Down FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-06 12:11:35 - [TEST_SUITE][FAILED] - Sample_TestSuite: Test Cases/UI_Components/Drop_Down FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'New Yok' of object 'Object Repository/Page_DropDown jQuery UI/Multi_Select' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at Drop_Down.run(Drop_Down:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591425686590.run(TempTestSuite1591425686590.groovy:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: New Yok
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'JESUS-PC', ip: '192.168.42.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
